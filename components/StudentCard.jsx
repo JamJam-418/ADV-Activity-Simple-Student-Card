@@ -1,6 +1,6 @@
 "use client";
 
-import StudentCard from "../components/StudentCard";
+import { useState } from "react";
 
 export default function StudentCard({ name, course, year }) {
   const [message, setMessage] = useState("Hello, Student!");
